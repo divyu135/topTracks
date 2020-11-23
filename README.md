@@ -4,8 +4,8 @@ This project was build for Software Engineering lab work. It uses two api: spoti
 
 ## How to use
 ### Run with development server
-`npm install
-npm start`
+`npm install`
+`npm start`
 
 ### Build and Deploy
 `npm run buil`
