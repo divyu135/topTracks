@@ -1,0 +1,153 @@
+log.js:24 [HMR] Waiting for update signal from WDS...
+App.js:87 2020/11/23 14:08:51 Generated spotify token: BQBlN0pFdDNmGr_JF_LO6tyDjyF_rMXykF7XoMY5kOt9B9Fy5JzKBPe08QfRlh2QRZFEwYkQFTWFv417zfk
+index.js:1 Warning: Each child in a list should have a unique "key" prop.
+
+Check the render method of `Listbox`. See https://reactjs.org/link/warning-keys for more information.
+    at WithStyles(ForwardRef(Grid)) (http://localhost:3000/static/js/0.chunk.js:9631:31)
+    at Listbox (http://localhost:3000/static/js/main.chunk.js:686:19)
+    at div
+    at Container (http://localhost:3000/static/js/0.chunk.js:2237:23)
+    at WithStyles(ForwardRef(Container)) (http://localhost:3000/static/js/0.chunk.js:9631:31)
+    at App (http://localhost:3000/static/js/main.chunk.js:266:83)
+console.<computed> @ index.js:1
+printWarning @ react-jsx-dev-runtime.development.js:117
+error @ react-jsx-dev-runtime.development.js:93
+validateExplicitKey @ react-jsx-dev-runtime.development.js:986
+validateChildKeys @ react-jsx-dev-runtime.development.js:1013
+jsxWithValidation @ react-jsx-dev-runtime.development.js:1184
+Listbox @ Listbox.js:27
+renderWithHooks @ react-dom.development.js:14985
+updateFunctionComponent @ react-dom.development.js:17356
+beginWork @ react-dom.development.js:19063
+beginWork$1 @ react-dom.development.js:23940
+performUnitOfWork @ react-dom.development.js:22776
+workLoopSync @ react-dom.development.js:22707
+renderRootSync @ react-dom.development.js:22670
+performSyncWorkOnRoot @ react-dom.development.js:22293
+(anonymous) @ react-dom.development.js:11327
+unstable_runWithPriority @ scheduler.development.js:646
+runWithPriority$1 @ react-dom.development.js:11276
+flushSyncCallbackQueueImpl @ react-dom.development.js:11322
+flushSyncCallbackQueue @ react-dom.development.js:11309
+scheduleUpdateOnFiber @ react-dom.development.js:21893
+dispatchAction @ react-dom.development.js:16139
+(anonymous) @ App.js:102
+Promise.then (async)
+buttonClicked @ App.js:95
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+invokeGuardedCallbackAndCatchFirstError @ react-dom.development.js:4070
+executeDispatch @ react-dom.development.js:8243
+processDispatchQueueItemsInOrder @ react-dom.development.js:8275
+processDispatchQueue @ react-dom.development.js:8288
+dispatchEventsForPlugins @ react-dom.development.js:8299
+(anonymous) @ react-dom.development.js:8508
+batchedEventUpdates$1 @ react-dom.development.js:22396
+batchedEventUpdates @ react-dom.development.js:3745
+dispatchEventForPluginEventSystem @ react-dom.development.js:8507
+attemptToDispatchEvent @ react-dom.development.js:6005
+dispatchEvent @ react-dom.development.js:5924
+unstable_runWithPriority @ scheduler.development.js:646
+runWithPriority$1 @ react-dom.development.js:11276
+discreteUpdates$1 @ react-dom.development.js:22413
+discreteUpdates @ react-dom.development.js:3756
+dispatchDiscreteEvent @ react-dom.development.js:5889
+App.js:107 2020/11/23 14:08:58 Searched artist "Linkin Park" list: [object Object],[object Object],[object Object]
+App.js:118 2020/11/23 14:09:01 Selected artist id "6XyY86QOPPrYVGvF9ch6wz"
+MapView.js:54 2020/11/23 14:09:01 Marked markers 
+MapView.js:32 2020/11/23 14:09:03 Loaded world map 
+MapView.js:79 2020/11/23 14:09:12 Country popup 
+MapView.js:84 2020/11/23 14:09:12 Displayed Top tracks 
+MapView.js:79 2020/11/23 14:09:21 Country popup 
+MapView.js:84 2020/11/23 14:09:21 Displayed Top tracks 
+MapView.js:79 2020/11/23 14:09:32 Country popup 
+MapView.js:84 2020/11/23 14:09:32 Displayed Top tracks 
+localhost/:1 Access to XMLHttpRequest at 'https://accounts.spotify.com/api/token' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+xhr.js:177 POST https://accounts.spotify.com/api/token net::ERR_FAILED
+dispatchXhrRequest @ xhr.js:177
+xhrAdapter @ xhr.js:13
+dispatchRequest @ dispatchRequest.js:52
+Promise.then (async)
+request @ Axios.js:61
+wrap @ bind.js:9
+(anonymous) @ Popup.js:17
+invokePassiveEffectCreate @ react-dom.development.js:23487
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+flushPassiveEffectsImpl @ react-dom.development.js:23574
+unstable_runWithPriority @ scheduler.development.js:646
+runWithPriority$1 @ react-dom.development.js:11276
+flushPassiveEffects @ react-dom.development.js:23447
+(anonymous) @ react-dom.development.js:23324
+workLoop @ scheduler.development.js:590
+flushWork @ scheduler.development.js:545
+performWorkUntilDeadline @ scheduler.development.js:157
+createError.js:16 Uncaught (in promise) Error: Network Error
+    at createError (createError.js:16)
+    at XMLHttpRequest.handleError (xhr.js:84)
+createError @ createError.js:16
+handleError @ xhr.js:84
+Promise.then (async)
+(anonymous) @ Popup.js:17
+invokePassiveEffectCreate @ react-dom.development.js:23487
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+flushPassiveEffectsImpl @ react-dom.development.js:23574
+unstable_runWithPriority @ scheduler.development.js:646
+runWithPriority$1 @ react-dom.development.js:11276
+flushPassiveEffects @ react-dom.development.js:23447
+(anonymous) @ react-dom.development.js:23324
+workLoop @ scheduler.development.js:590
+flushWork @ scheduler.development.js:545
+performWorkUntilDeadline @ scheduler.development.js:157
+App.js:107 2020/11/23 14:10:22 Searched artist "rolling stone" list: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+App.js:118 2020/11/23 14:10:23 Selected artist id "22bE4uQ6baNwSHPVcDxLCe"
+MapView.js:79 2020/11/23 14:10:28 Country popup 
+MapView.js:84 2020/11/23 14:10:28 Displayed Top tracks 
+App.js:107 2020/11/23 14:11:05 Searched artist "bon jovi" list: [object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]
+App.js:118 2020/11/23 14:11:07 Selected artist id "58lV9VcRSjABbAbfWS6skp"
+MapView.js:79 2020/11/23 14:11:23 Country popup 
+MapView.js:84 2020/11/23 14:11:23 Displayed Top tracks 
+localhost/:1 Access to XMLHttpRequest at 'https://accounts.spotify.com/api/token' from origin 'http://localhost:3000' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
+xhr.js:177 POST https://accounts.spotify.com/api/token net::ERR_FAILED
+dispatchXhrRequest @ xhr.js:177
+xhrAdapter @ xhr.js:13
+dispatchRequest @ dispatchRequest.js:52
+Promise.then (async)
+request @ Axios.js:61
+wrap @ bind.js:9
+(anonymous) @ Popup.js:17
+invokePassiveEffectCreate @ react-dom.development.js:23487
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+flushPassiveEffectsImpl @ react-dom.development.js:23574
+unstable_runWithPriority @ scheduler.development.js:646
+runWithPriority$1 @ react-dom.development.js:11276
+flushPassiveEffects @ react-dom.development.js:23447
+(anonymous) @ react-dom.development.js:23324
+workLoop @ scheduler.development.js:590
+flushWork @ scheduler.development.js:545
+performWorkUntilDeadline @ scheduler.development.js:157
+createError.js:16 Uncaught (in promise) Error: Network Error
+    at createError (createError.js:16)
+    at XMLHttpRequest.handleError (xhr.js:84)
+createError @ createError.js:16
+handleError @ xhr.js:84
+Promise.then (async)
+(anonymous) @ Popup.js:17
+invokePassiveEffectCreate @ react-dom.development.js:23487
+callCallback @ react-dom.development.js:3945
+invokeGuardedCallbackDev @ react-dom.development.js:3994
+invokeGuardedCallback @ react-dom.development.js:4056
+flushPassiveEffectsImpl @ react-dom.development.js:23574
+unstable_runWithPriority @ scheduler.development.js:646
+runWithPriority$1 @ react-dom.development.js:11276
+flushPassiveEffects @ react-dom.development.js:23447
+(anonymous) @ react-dom.development.js:23324
+workLoop @ scheduler.development.js:590
+flushWork @ scheduler.development.js:545
+performWorkUntilDeadline @ scheduler.development.js:157
