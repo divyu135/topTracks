@@ -40,12 +40,15 @@ class landing extends Component {
             <p style={{ paddingTop: 10 }}>
               <Button
                 // to='/app'
+                style={{ padding: 20, paddingRight:30, paddingLeft:30 }}
                 variant='contained'
                 color='primary'
                 href='/app'
               >
                 Artist Top Track Map
               </Button>
+              <br/>
+              <br/>
             </p>
           </Typography>
           <Typography
@@ -55,8 +58,15 @@ class landing extends Component {
             color='textSecondary'
             gutterBottom
           >
-            <br />
             Developed By
+           </Typography>
+            <Typography
+            component='h6'
+            variant='h6'
+            align='center'
+            color='textSecondary'
+            gutterBottom
+          >
             <span style={{ paddingLeft: 20, paddingRight: 20 }}>
               <Chip
                 label='Divyajeetsinh Chauhan '
@@ -108,7 +118,8 @@ class landing extends Component {
           <Typography variant='h6'align='center' color='textSecondary' paragraph>
           <Button
                 // to='/app'
-                variant='contained'
+                variant='outlined'
+                color="primary"
                 style={{justifyContent: 'center'}}
                 href='/doc'
               >
@@ -136,6 +147,14 @@ class landing extends Component {
               4. Click on the music icon for whichever country you desire, to
               know the trending song list.
             </p>
+          </Typography>
+          <br/>
+          <br/>
+          <Typography variant='body1' align='justify' color='textSecondary' paragraph>
+            <strong>Please note:</strong><ol> <li>The top songs in various countries can be same for a artist.
+             Try searching "Linked Horizon" a japanese band, for this different songs will be shown for japan and canada etc.
+             </li><li>The app will not show any songs if spotify dataset is not available for that country.</li>
+             </ol>
           </Typography>
         </Container>
         <div style={{ minHeight: 50, backgroundColor: "#3F51B5" }}></div>
