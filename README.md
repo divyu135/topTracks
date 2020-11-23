@@ -9,7 +9,7 @@ This project was build for Software Engineering lab work. It uses two api: spoti
 `npm start`
 
 ### Build and Deploy
-`npm run buil`
+`npm run build`
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
