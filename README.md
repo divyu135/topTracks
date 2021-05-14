@@ -1,6 +1,6 @@
 # Top Tracks Map - A React App
 
-This project was build for Software Engineering lab work. It uses two api: spotify and mapbox
+This is a simple App to display the top songs by artist in different stores(countries) on the world map. It uses two api: spotify and mapbox
 
 ## How to use
 ### Run with development server
